@@ -16,7 +16,7 @@ export const COMPANY = {
   effectiveDate: "June 9, 2026",
 } as const;
 
-export const PUBLIC_URL = "https://epic-agent-studio.up.railway.app";
+export const PUBLIC_URL = "https://epic-agent-studio-production.up.railway.app";
 
 export function siteBaseUrl() {
   return process.env.NEXT_PUBLIC_SITE_URL ?? process.env.AUTH_URL ?? PUBLIC_URL;
