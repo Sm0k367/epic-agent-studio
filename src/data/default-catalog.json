@@ -1,0 +1,817 @@
+{
+  "count": 88,
+  "categories": [
+    "Media Studio",
+    "AI Agent",
+    "Internet & Social",
+    "Files & Folders",
+    "System & Turbo",
+    "Dev Lab",
+    "Windows Apps",
+    "Creative Tools"
+  ],
+  "dock_favorites": [
+    "deploy.oneclick",
+    "deploy.hub",
+    "ai.continue",
+    "ai.telegram",
+    "deploy.supabase",
+    "deploy.vercel",
+    "eco.plans",
+    "files.epic_os"
+  ],
+  "apps": [
+    {
+      "id": "media.reel.custom",
+      "name": "Stitch Folder",
+      "icon": "\ud83d\udcc1",
+      "category": "Media Studio",
+      "type": "action",
+      "target": "media.reel.custom",
+      "desc": "Any clip folder"
+    },
+    {
+      "id": "media.dashboard",
+      "name": "Production Dashboard",
+      "icon": "\ud83d\udcca",
+      "category": "Media Studio",
+      "type": "action",
+      "target": "media.dashboard",
+      "desc": "Status board"
+    },
+    {
+      "id": "media.scaffold",
+      "name": "New Film Wizard",
+      "icon": "\ud83e\ude84",
+      "category": "Media Studio",
+      "type": "action",
+      "target": "media.studio.scaffold",
+      "desc": "New project"
+    },
+    {
+      "id": "deploy.oneclick",
+      "name": "Deploy",
+      "icon": "\ud83d\ude80",
+      "category": "Media Studio",
+      "type": "action",
+      "target": "deploy",
+      "desc": "Vercel \u00b7 Railway \u00b7 CF \u00b7 Supabase \u00b7 DO"
+    },
+    {
+      "id": "deploy.hub",
+      "name": "Deploy Hub",
+      "icon": "\u2601\ufe0f",
+      "category": "Media Studio",
+      "type": "action",
+      "target": "deploy.hub",
+      "desc": "Pick cloud \u00b7 DB \u00b7 auth"
+    },
+    {
+      "id": "deploy.setup",
+      "name": "Deploy Setup",
+      "icon": "\ud83d\udd11",
+      "category": "Media Studio",
+      "type": "action",
+      "target": "deploy.setup",
+      "desc": "API tokens & keys"
+    },
+    {
+      "id": "deploy.sync_env",
+      "name": "Sync Cloud Env",
+      "icon": "\ud83d\udd04",
+      "category": "Media Studio",
+      "type": "action",
+      "target": "deploy.sync_env",
+      "desc": "Vercel + Railway vars"
+    },
+    {
+      "id": "deploy.vercel",
+      "name": "Deploy Vercel",
+      "icon": "\u25b2",
+      "category": "Media Studio",
+      "type": "action",
+      "target": "deploy.vercel",
+      "desc": "Hosting"
+    },
+    {
+      "id": "deploy.railway",
+      "name": "Deploy Railway",
+      "icon": "\ud83d\ude82",
+      "category": "Media Studio",
+      "type": "action",
+      "target": "deploy.railway",
+      "desc": "Hosting"
+    },
+    {
+      "id": "deploy.cloudflare",
+      "name": "Deploy Cloudflare",
+      "icon": "\u2601\ufe0f",
+      "category": "Media Studio",
+      "type": "action",
+      "target": "deploy.cloudflare_pages",
+      "desc": "Pages / Workers"
+    },
+    {
+      "id": "deploy.supabase",
+      "name": "Deploy Supabase",
+      "icon": "\u26a1",
+      "category": "Media Studio",
+      "type": "action",
+      "target": "deploy.supabase",
+      "desc": "DB + edge"
+    },
+    {
+      "id": "deploy.digitalocean",
+      "name": "Deploy DigitalOcean",
+      "icon": "\ud83c\udf0a",
+      "category": "Media Studio",
+      "type": "action",
+      "target": "deploy.digitalocean",
+      "desc": "App Platform"
+    },
+    {
+      "id": "deploy.netlify",
+      "name": "Deploy Netlify",
+      "icon": "\u25c6",
+      "category": "Media Studio",
+      "type": "action",
+      "target": "deploy.netlify",
+      "desc": "Hosting"
+    },
+    {
+      "id": "deploy.clerk",
+      "name": "Deploy Clerk Auth",
+      "icon": "\ud83d\udd10",
+      "category": "Media Studio",
+      "type": "action",
+      "target": "deploy.clerk",
+      "desc": "Auth"
+    },
+    {
+      "id": "deploy.media",
+      "name": "Deploy Media",
+      "icon": "\ud83d\udce4",
+      "category": "Media Studio",
+      "type": "action",
+      "target": "deploy.media",
+      "desc": "Compress \u2192 X"
+    },
+    {
+      "id": "deploy.os",
+      "name": "Deploy Epic OS",
+      "icon": "\ud83d\udce6",
+      "category": "Media Studio",
+      "type": "action",
+      "target": "deploy.os",
+      "desc": "Zip retail or push repo"
+    },
+    {
+      "id": "deploy.all",
+      "name": "Deploy Everything",
+      "icon": "\ud83c\udf0d",
+      "category": "Media Studio",
+      "type": "action",
+      "target": "deploy.all",
+      "desc": "Media + OS package"
+    },
+    {
+      "id": "media.compress",
+      "name": "Compress for X",
+      "icon": "\ud83d\udce4",
+      "category": "Media Studio",
+      "type": "action",
+      "target": "media.delivery.compress",
+      "desc": "Upload ready"
+    },
+    {
+      "id": "media.xpipeline",
+      "name": "X Upload Pipeline",
+      "icon": "\ud83d\ude80",
+      "category": "Media Studio",
+      "type": "action",
+      "target": "media.delivery.pipeline",
+      "desc": "Turbo + compress"
+    },
+    {
+      "id": "media.edge",
+      "name": "Post via Edge X",
+      "icon": "\ud83c\udf10",
+      "category": "Media Studio",
+      "type": "action",
+      "target": "media.delivery.edge",
+      "desc": "Browser post"
+    },
+    {
+      "id": "media.vault",
+      "name": "Media Vault",
+      "icon": "\ud83d\uddc4\ufe0f",
+      "category": "Media Studio",
+      "type": "path",
+      "target": "C:\\Users\\Epic Tech\\.openclaw\\workspace\\media\\vault",
+      "desc": "GitHub LFS finals"
+    },
+    {
+      "id": "media.vault.github",
+      "name": "Vault on GitHub",
+      "icon": "\ud83d\udd17",
+      "category": "Media Studio",
+      "type": "url",
+      "target": "https://github.com/Sm0k367/epic-system/tree/master/media/vault",
+      "desc": "Browse online"
+    },
+    {
+      "id": "media.folder.studio",
+      "name": "Media Studio Folder",
+      "icon": "\ud83d\udcc2",
+      "category": "Media Studio",
+      "type": "path",
+      "target": "C:\\Users\\Epic Tech\\Desktop\\Epic OS\\01 - Media Studio",
+      "desc": "All media apps"
+    },
+    {
+      "id": "media.folder.output",
+      "name": "Output / X-Ready",
+      "icon": "\ud83d\udce6",
+      "category": "Media Studio",
+      "type": "path",
+      "target": "C:\\Users\\Epic Tech\\Desktop\\Epic OS\\Output",
+      "desc": "Exports"
+    },
+    {
+      "id": "media.folder.video",
+      "name": "Video Library",
+      "icon": "\ud83c\udf9e\ufe0f",
+      "category": "Media Studio",
+      "type": "path",
+      "target": "C:\\Users\\Epic Tech\\OneDrive\\Desktop\\Video",
+      "desc": "Raw library"
+    },
+    {
+      "id": "ai.continue",
+      "name": "Continue Session",
+      "icon": "\u21a9\ufe0f",
+      "category": "AI Agent",
+      "type": "action",
+      "target": "session.continue",
+      "desc": "Pick up where we left off"
+    },
+    {
+      "id": "ai.telegram",
+      "name": "Telegram Bot",
+      "icon": "\ud83d\udcac",
+      "category": "AI Agent",
+      "type": "url",
+      "target": "https://t.me/epictech_assistant_bot",
+      "desc": "Message your OS"
+    },
+    {
+      "id": "ai.gateway.status",
+      "name": "Gateway Status",
+      "icon": "\ud83d\udce1",
+      "category": "AI Agent",
+      "type": "action",
+      "target": "openclaw.status",
+      "desc": "Check :18789"
+    },
+    {
+      "id": "ai.gateway.restart",
+      "name": "Restart Gateway",
+      "icon": "\ud83d\udd04",
+      "category": "AI Agent",
+      "type": "action",
+      "target": "openclaw.restart",
+      "desc": "Always-on bot"
+    },
+    {
+      "id": "ai.always_on",
+      "name": "Always On Heal",
+      "icon": "\ud83d\udc93",
+      "category": "AI Agent",
+      "type": "action",
+      "target": "sys.always_on",
+      "desc": "Fix gateway + heartbeat"
+    },
+    {
+      "id": "ai.session.md",
+      "name": "SESSION.md",
+      "icon": "\ud83d\udccd",
+      "category": "AI Agent",
+      "type": "path",
+      "target": "C:\\Users\\Epic Tech\\.openclaw\\workspace\\SESSION.md",
+      "desc": "Resume context"
+    },
+    {
+      "id": "ai.gateway.ui",
+      "name": "Gateway UI",
+      "icon": "\ud83c\udf10",
+      "category": "AI Agent",
+      "type": "url",
+      "target": "http://127.0.0.1:18789",
+      "desc": "Local agent UI"
+    },
+    {
+      "id": "ai.shell",
+      "name": "Epic OS Desktop",
+      "icon": "\ud83d\uddbc\ufe0f",
+      "category": "AI Agent",
+      "type": "action",
+      "target": "os.shell",
+      "desc": "This launcher"
+    },
+    {
+      "id": "ai.first_run",
+      "name": "First Run Setup",
+      "icon": "\ud83c\udfaf",
+      "category": "AI Agent",
+      "type": "action",
+      "target": "sys.first_run",
+      "desc": "Day-1 wizard"
+    },
+    {
+      "id": "web.x",
+      "name": "X / Twitter",
+      "icon": "\ud835\udd4f",
+      "category": "Internet & Social",
+      "type": "url",
+      "target": "https://x.com",
+      "desc": "Social"
+    },
+    {
+      "id": "web.x.compose",
+      "name": "X Compose",
+      "icon": "\u270d\ufe0f",
+      "category": "Internet & Social",
+      "type": "url",
+      "target": "https://x.com/compose/post",
+      "desc": "New post"
+    },
+    {
+      "id": "web.youtube",
+      "name": "YouTube",
+      "icon": "\u25b6\ufe0f",
+      "category": "Internet & Social",
+      "type": "url",
+      "target": "https://youtube.com",
+      "desc": "Video"
+    },
+    {
+      "id": "web.google",
+      "name": "Google",
+      "icon": "\ud83d\udd0d",
+      "category": "Internet & Social",
+      "type": "url",
+      "target": "https://google.com",
+      "desc": "Search"
+    },
+    {
+      "id": "web.gmail",
+      "name": "Gmail",
+      "icon": "\ud83d\udce7",
+      "category": "Internet & Social",
+      "type": "url",
+      "target": "https://mail.google.com",
+      "desc": "Email"
+    },
+    {
+      "id": "web.github",
+      "name": "GitHub",
+      "icon": "\ud83d\udc19",
+      "category": "Internet & Social",
+      "type": "url",
+      "target": "https://github.com",
+      "desc": "Code hosting"
+    },
+    {
+      "id": "web.telegram.web",
+      "name": "Telegram Web",
+      "icon": "\ud83d\udcac",
+      "category": "Internet & Social",
+      "type": "url",
+      "target": "https://web.telegram.org",
+      "desc": "Messages"
+    },
+    {
+      "id": "web.epictech",
+      "name": "Epic Tech AI",
+      "icon": "\ud83c\udfe2",
+      "category": "Internet & Social",
+      "type": "url",
+      "target": "https://x.com/epictechai",
+      "desc": "@epictechai"
+    },
+    {
+      "id": "eco.plans",
+      "name": "View Plans",
+      "icon": "\ud83d\udc8e",
+      "category": "Internet & Social",
+      "type": "url",
+      "target": "https://t.me/epictech_public_bot",
+      "desc": "Free \u00b7 Desk \u00b7 Pro"
+    },
+    {
+      "id": "web.reddit",
+      "name": "Reddit",
+      "icon": "\ud83d\udd36",
+      "category": "Internet & Social",
+      "type": "url",
+      "target": "https://reddit.com",
+      "desc": "Communities"
+    },
+    {
+      "id": "web.api_hub",
+      "name": "API Gold Mine",
+      "icon": "\u26cf\ufe0f",
+      "category": "Internet & Social",
+      "type": "url",
+      "target": "http://127.0.0.1:8780/api-hub",
+      "desc": "Live free APIs"
+    },
+    {
+      "id": "web.public_apis",
+      "name": "Public APIs List",
+      "icon": "\ud83d\uddc2\ufe0f",
+      "category": "Internet & Social",
+      "type": "url",
+      "target": "https://github.com/public-apis/public-apis",
+      "desc": "API catalog"
+    },
+    {
+      "id": "web.opencodex",
+      "name": "OpenCodex UI/UX",
+      "icon": "\ud83c\udf9b\ufe0f",
+      "category": "Internet & Social",
+      "type": "url",
+      "target": "https://github.com/RealDealCPA-VR/OPEN-UI.UX",
+      "desc": "Mission control patterns"
+    },
+    {
+      "id": "web.realdeal",
+      "name": "RealDealCPA-VR",
+      "icon": "\ud83e\udde9",
+      "category": "Internet & Social",
+      "type": "url",
+      "target": "https://github.com/RealDealCPA-VR",
+      "desc": "Org repos"
+    },
+    {
+      "id": "files.desktop",
+      "name": "Desktop",
+      "icon": "\ud83d\udda5\ufe0f",
+      "category": "Files & Folders",
+      "type": "path",
+      "target": "C:\\Users\\Epic Tech\\OneDrive\\Desktop",
+      "desc": "Your desktop"
+    },
+    {
+      "id": "files.documents",
+      "name": "Documents",
+      "icon": "\ud83d\udcc4",
+      "category": "Files & Folders",
+      "type": "path",
+      "target": "C:\\Users\\Epic Tech\\Documents",
+      "desc": "Docs"
+    },
+    {
+      "id": "files.downloads",
+      "name": "Downloads",
+      "icon": "\u2b07\ufe0f",
+      "category": "Files & Folders",
+      "type": "path",
+      "target": "C:\\Users\\Epic Tech\\Downloads",
+      "desc": "Downloads"
+    },
+    {
+      "id": "files.pictures",
+      "name": "Pictures",
+      "icon": "\ud83d\uddbc\ufe0f",
+      "category": "Files & Folders",
+      "type": "path",
+      "target": "C:\\Users\\Epic Tech\\Pictures",
+      "desc": "Photos"
+    },
+    {
+      "id": "files.videos",
+      "name": "Videos",
+      "icon": "\ud83c\udfa5",
+      "category": "Files & Folders",
+      "type": "path",
+      "target": "C:\\Users\\Epic Tech\\Videos",
+      "desc": "Videos"
+    },
+    {
+      "id": "files.onedrive",
+      "name": "OneDrive",
+      "icon": "\u2601\ufe0f",
+      "category": "Files & Folders",
+      "type": "path",
+      "target": "C:\\Users\\Epic Tech\\OneDrive",
+      "desc": "Cloud sync"
+    },
+    {
+      "id": "files.epic_os",
+      "name": "Epic OS Folder",
+      "icon": "\ud83d\udc8e",
+      "category": "Files & Folders",
+      "type": "path",
+      "target": "C:\\Users\\Epic Tech\\Desktop\\Epic OS",
+      "desc": "OS home"
+    },
+    {
+      "id": "files.explorer",
+      "name": "File Explorer",
+      "icon": "\ud83d\udcc2",
+      "category": "Files & Folders",
+      "type": "cmd",
+      "target": "explorer",
+      "desc": "Windows explorer"
+    },
+    {
+      "id": "sys.health",
+      "name": "Health Check",
+      "icon": "\ud83e\ude7a",
+      "category": "System & Turbo",
+      "type": "action",
+      "target": "validate",
+      "desc": "Validate all tools"
+    },
+    {
+      "id": "sys.health.full",
+      "name": "System Health",
+      "icon": "\ud83d\udcca",
+      "category": "System & Turbo",
+      "type": "action",
+      "target": "sys.health",
+      "desc": "Full status report"
+    },
+    {
+      "id": "sys.always_on",
+      "name": "Always On Heal",
+      "icon": "\ud83d\udc93",
+      "category": "System & Turbo",
+      "type": "action",
+      "target": "sys.always_on",
+      "desc": "Gateway + heartbeat"
+    },
+    {
+      "id": "sys.update",
+      "name": "Update Epic OS",
+      "icon": "\u2b06\ufe0f",
+      "category": "System & Turbo",
+      "type": "action",
+      "target": "sys.update",
+      "desc": "Pull from GitHub"
+    },
+    {
+      "id": "sys.turbo.boost",
+      "name": "Turbo Boost",
+      "icon": "\ud83d\ude80",
+      "category": "System & Turbo",
+      "type": "action",
+      "target": "turbo.boost",
+      "desc": "Upload mode"
+    },
+    {
+      "id": "sys.turbo.restore",
+      "name": "Turbo Restore",
+      "icon": "\ud83d\udd19",
+      "category": "System & Turbo",
+      "type": "action",
+      "target": "turbo.restore",
+      "desc": "Normal mode"
+    },
+    {
+      "id": "sys.power",
+      "name": "High Performance",
+      "icon": "\u26a1",
+      "category": "System & Turbo",
+      "type": "action",
+      "target": "turbo.power",
+      "desc": "Power plan"
+    },
+    {
+      "id": "sys.dns",
+      "name": "Flush DNS",
+      "icon": "\ud83c\udf0a",
+      "category": "System & Turbo",
+      "type": "action",
+      "target": "turbo.dns",
+      "desc": "Network flush"
+    },
+    {
+      "id": "sys.rebuild",
+      "name": "Rebuild Epic OS",
+      "icon": "\ud83d\udd27",
+      "category": "System & Turbo",
+      "type": "action",
+      "target": "rebuild",
+      "desc": "Refresh launchers"
+    },
+    {
+      "id": "sys.settings",
+      "name": "Windows Settings",
+      "icon": "\u2699\ufe0f",
+      "category": "System & Turbo",
+      "type": "url",
+      "target": "ms-settings:",
+      "desc": "OS settings"
+    },
+    {
+      "id": "sys.taskmgr",
+      "name": "Task Manager",
+      "icon": "\ud83d\udccb",
+      "category": "System & Turbo",
+      "type": "cmd",
+      "target": "taskmgr",
+      "desc": "Processes"
+    },
+    {
+      "id": "sys.clear_temp",
+      "name": "Clear Temp",
+      "icon": "\ud83e\uddf9",
+      "category": "System & Turbo",
+      "type": "cmd",
+      "target": "cmd /c del /q /f /s \"%TEMP%\\*\" 2>nul",
+      "desc": "Free space"
+    },
+    {
+      "id": "dev.terminal",
+      "name": "Dev Terminal",
+      "icon": "\u2328\ufe0f",
+      "category": "Dev Lab",
+      "type": "action",
+      "target": "dev.terminal",
+      "desc": "WT / cmd"
+    },
+    {
+      "id": "dev.git",
+      "name": "Git Status",
+      "icon": "\ud83c\udf3f",
+      "category": "Dev Lab",
+      "type": "action",
+      "target": "dev.git",
+      "desc": "Repo status"
+    },
+    {
+      "id": "dev.scripts",
+      "name": "Scripts Folder",
+      "icon": "\ud83d\udc0d",
+      "category": "Dev Lab",
+      "type": "path",
+      "target": "C:\\Users\\Epic Tech\\.openclaw\\workspace\\scripts",
+      "desc": "Python tools"
+    },
+    {
+      "id": "dev.bootstrap",
+      "name": "Continuity Docs",
+      "icon": "\ud83d\udcd6",
+      "category": "Dev Lab",
+      "type": "path",
+      "target": "C:\\Users\\Epic Tech\\.openclaw\\workspace\\bootstrap\\CONTINUITY.md",
+      "desc": "Runbook"
+    },
+    {
+      "id": "dev.resume",
+      "name": "Resume Guide",
+      "icon": "\ud83d\udcd8",
+      "category": "Dev Lab",
+      "type": "path",
+      "target": "C:\\Users\\Epic Tech\\.openclaw\\workspace\\docs\\RESUME.md",
+      "desc": "How to continue"
+    },
+    {
+      "id": "dev.editions",
+      "name": "Personal vs Retail",
+      "icon": "\ud83d\udcd7",
+      "category": "Dev Lab",
+      "type": "path",
+      "target": "C:\\Users\\Epic Tech\\.openclaw\\workspace\\docs\\PERSONAL-vs-RETAIL.md",
+      "desc": "Edition guide"
+    },
+    {
+      "id": "dev.widgets",
+      "name": "Refresh Widgets",
+      "icon": "\ud83d\udce1",
+      "category": "Dev Lab",
+      "type": "action",
+      "target": "widgets.refresh",
+      "desc": "Public API live data"
+    },
+    {
+      "id": "dev.api_registry",
+      "name": "API Registry",
+      "icon": "\ud83d\udccb",
+      "category": "Dev Lab",
+      "type": "path",
+      "target": "C:\\Users\\Epic Tech\\.openclaw\\workspace\\bootstrap\\public_apis.json",
+      "desc": "Wired providers"
+    },
+    {
+      "id": "win.calc",
+      "name": "Calculator",
+      "icon": "\ud83d\udd22",
+      "category": "Windows Apps",
+      "type": "cmd",
+      "target": "calc",
+      "desc": "Math"
+    },
+    {
+      "id": "win.notepad",
+      "name": "Notepad",
+      "icon": "\ud83d\udcdd",
+      "category": "Windows Apps",
+      "type": "cmd",
+      "target": "notepad",
+      "desc": "Text editor"
+    },
+    {
+      "id": "win.paint",
+      "name": "Paint",
+      "icon": "\ud83c\udfa8",
+      "category": "Windows Apps",
+      "type": "cmd",
+      "target": "mspaint",
+      "desc": "Draw"
+    },
+    {
+      "id": "win.snip",
+      "name": "Snipping Tool",
+      "icon": "\u2702\ufe0f",
+      "category": "Windows Apps",
+      "type": "url",
+      "target": "ms-screenclip:",
+      "desc": "Screenshots"
+    },
+    {
+      "id": "win.photos",
+      "name": "Photos",
+      "icon": "\ud83d\uddbc\ufe0f",
+      "category": "Windows Apps",
+      "type": "cmd",
+      "target": "explorer \"C:\\Users\\Epic Tech\\Pictures\"",
+      "desc": "Gallery"
+    },
+    {
+      "id": "win.cmd",
+      "name": "Command Prompt",
+      "icon": "\u2b1b",
+      "category": "Windows Apps",
+      "type": "cmd",
+      "target": "cmd",
+      "desc": "Shell"
+    },
+    {
+      "id": "win.pwsh",
+      "name": "PowerShell",
+      "icon": "\ud83d\udc99",
+      "category": "Windows Apps",
+      "type": "cmd",
+      "target": "pwsh",
+      "desc": "PowerShell 7"
+    },
+    {
+      "id": "win.control",
+      "name": "Control Panel",
+      "icon": "\ud83c\udf9b\ufe0f",
+      "category": "Windows Apps",
+      "type": "cmd",
+      "target": "control",
+      "desc": "Classic settings"
+    },
+    {
+      "id": "creative.ffmpeg",
+      "name": "FFmpeg (version)",
+      "icon": "\ud83c\udfac",
+      "category": "Creative Tools",
+      "type": "action",
+      "target": "sys.ffmpeg",
+      "desc": "Check ffmpeg"
+    },
+    {
+      "id": "creative.watch.ignition",
+      "name": "Watch Ignition",
+      "icon": "\u25b6\ufe0f",
+      "category": "Creative Tools",
+      "type": "action",
+      "target": "media.watch.ignition",
+      "desc": "Vault \u00b7 Neon Ignition"
+    },
+    {
+      "id": "creative.watch.afterburn",
+      "name": "Watch Afterburn",
+      "icon": "\u25b6\ufe0f",
+      "category": "Creative Tools",
+      "type": "action",
+      "target": "media.watch.afterburn",
+      "desc": "Vault \u00b7 Neon Afterburn"
+    },
+    {
+      "id": "creative.watch.dj",
+      "name": "Watch DJ Reel",
+      "icon": "\u25b6\ufe0f",
+      "category": "Creative Tools",
+      "type": "action",
+      "target": "media.watch.dj",
+      "desc": "Vault \u00b7 DJ reel"
+    }
+  ]
+}

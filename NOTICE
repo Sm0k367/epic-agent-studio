@@ -1,0 +1,28 @@
+Epic OS Platform — Third-Party Notices
+Copyright (c) 2025–2026 Epic Tech AI. All Rights Reserved.
+
+Epic Tech AI's original code, designs, documentation, and media in this
+repository are proprietary. See LICENSE.
+
+This product includes third-party open-source software, used under the licenses
+below. Inclusion does not grant rights to Epic Tech AI's original work.
+
+Major runtime dependencies (see package-lock.json for full tree):
+
+  • Next.js — MIT License
+  • React — MIT License
+  • Prisma — Apache-2.0 License
+  • Auth.js / NextAuth — ISC License
+  • Stripe Node SDK — MIT License
+  • Tailwind CSS — MIT License
+  • TypeScript — Apache-2.0 License
+  • Zod — MIT License
+
+Third-party services (subject to their own terms):
+
+  • Google OAuth / Google Cloud
+  • Stripe Payments
+  • Railway hosting
+  • PostgreSQL
+
+For proprietary licensing inquiries: epichtechai@gmail.com

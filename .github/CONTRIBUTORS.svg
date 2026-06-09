@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="120" viewBox="0 0 600 120">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7"/>
+      <stop offset="100%" style="stop-color:#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="120" rx="12" fill="#111122"/>
+  <text x="300" y="38" text-anchor="middle" fill="url(#g)" font-family="system-ui,sans-serif" font-size="18" font-weight="700">Built by Grok (xAI) + Epic Tech AI</text>
+  <text x="300" y="68" text-anchor="middle" fill="#7a7a9a" font-family="system-ui,sans-serif" font-size="13">AI implementation · Human vision · epic-os.up.railway.app</text>
+  <text x="300" y="96" text-anchor="middle" fill="#eeeef8" font-family="system-ui,sans-serif" font-size="12">github.com/Sm0k367/epic-os-platform</text>
+</svg>

@@ -1,0 +1,50 @@
+{
+  "name": "epic-agent-studio",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": "Epic Tech AI <epichtechai@gmail.com> (https://x.com/EpicTechAI)",
+  "copyright": "Copyright (c) 2025–2026 Epic Tech AI. All Rights Reserved.",
+  "contributors": [
+    "Sm0k367 <https://github.com/Sm0k367> — product owner & guide",
+    "Grok <https://x.ai> — AI engineering agent (architecture, implementation, deploy, docs)"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma generate && next build",
+    "start": "next start",
+    "start:prod": "node scripts/start-prod.mjs",
+    "db:push": "prisma db push",
+    "db:seed": "tsx scripts/seed.ts",
+    "lint": "eslint",
+    "check:secrets": "node scripts/check-secrets.mjs",
+    "install:hooks": "node scripts/install-hooks.mjs",
+    "prepare": "node scripts/install-hooks.mjs"
+  },
+  "dependencies": {
+    "@auth/prisma-adapter": "^2.11.2",
+    "@huggingface/inference": "^3.9.1",
+    "@prisma/client": "^5.22.0",
+    "groq-sdk": "^0.15.0",
+    "lucide-react": "^0.511.0",
+    "next": "15.5.19",
+    "next-auth": "^5.0.0-beta.30",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "stripe": "^22.2.0",
+    "tsx": "^4.22.4",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.19",
+    "prisma": "^5.22.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

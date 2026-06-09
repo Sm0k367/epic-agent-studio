@@ -1,0 +1,3 @@
+#!/bin/sh
+# Blocks push if hardcoded secrets are detected.
+npm run check:secrets || exit 1

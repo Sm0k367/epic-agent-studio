@@ -1,0 +1,75 @@
+Epic OS Platform — Proprietary Software License
+Copyright (c) 2025–2026 Epic Tech AI. All Rights Reserved.
+
+================================================================================
+PROPRIETARY AND CONFIDENTIAL — UNAUTHORIZED USE STRICTLY PROHIBITED
+================================================================================
+
+This repository and all materials within it (the "Software") are the exclusive
+intellectual property of Epic Tech AI ("Licensor"), including all source code,
+object code, schemas, APIs, documentation, marketing copy, UI/UX designs,
+graphics, audio, video, trade dress, and derivative works.
+
+OWNERSHIP
+---------
+Epic Tech AI (operated by @Sm0k367 / Epic Tech AI) owns all right, title, and
+interest in and to the Software, including the "Epic OS", "Epic OS Platform",
+and "Epic Tech AI" names, logos, and branding (the "Marks"). The Marks may not
+be used without prior written permission from Licensor.
+
+NO LICENSE GRANTED
+------------------
+Except for a limited right to access the live hosted service at
+https://epic-os.up.railway.app under a paid or trial subscription and
+applicable Terms of Service, NO license is granted to any person or entity to:
+
+  • use, run, copy, reproduce, or distribute the Software or any portion of it;
+  • modify, adapt, translate, or create derivative works;
+  • reverse engineer, decompile, disassemble, or attempt to derive source code;
+  • scrape, mine, or bulk-download repository content;
+  • remove or alter copyright, trademark, or proprietary notices;
+  • sublicense, resell, white-label, or offer competing services based on the
+    Software;
+  • publish, mirror, or host the Software (source or binary) on any platform.
+
+This is a private GitHub repository. Access is restricted to authorized Epic
+Tech AI personnel. Repository access does NOT grant any license to use,
+copy, or distribute the Software.
+
+PERMITTED ACCESS
+----------------
+The following are permitted only with express written authorization from
+epichtechai@gmail.com:
+
+  • cloning or forking for internal development by Epic Tech AI personnel;
+  • security research coordinated with Licensor;
+  • contributions under a signed contributor agreement.
+
+SUBSCRIBERS
+-----------
+Paying subscribers receive a limited, non-exclusive, non-transferable,
+revocable license to use the hosted Epic OS service as described in the Terms
+of Service at https://epic-os.up.railway.app/terms. That license does NOT
+include rights to the underlying source code in this repository.
+
+THIRD-PARTY COMPONENTS
+----------------------
+The Software may incorporate open-source components listed in NOTICE. Those
+components are used under their respective licenses and do not affect
+ownership of Epic Tech AI's original work.
+
+ENFORCEMENT
+-----------
+Unauthorized use may result in civil and criminal liability under applicable
+copyright, trade secret, trademark, and computer-fraud laws. Licensor will
+pursue all available remedies, including injunctive relief and damages.
+
+Report suspected infringement: epichtechai@gmail.com
+
+GOVERNING LAW
+-------------
+This license is governed by the laws of the State of Delaware, United States,
+without regard to conflict-of-law principles.
+
+For licensing inquiries: epichtechai@gmail.com
+https://x.com/EpicTechAI

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "cyber-samurai",
+    "name": "Cyberpunk Worldbuilder",
+    "type": "image",
+    "prompt": "neon-drenched cyberpunk samurai in a raining Tokyo alley, holographic dragons circling above, cinematic lighting, ultra-detailed, 8k",
+    "description": "High-detail cinematic image generation"
+  },
+  {
+    "id": "product-hero",
+    "name": "Product Visualizer",
+    "type": "image",
+    "prompt": "clean studio product shot of a futuristic wireless earbuds on a reflective black surface, dramatic rim lighting, commercial photography style",
+    "description": "Professional product imagery"
+  },
+  {
+    "id": "synthwave-track",
+    "name": "Synthwave Composer",
+    "type": "audio",
+    "prompt": "retro 80s synthwave driving night chase through neon city, heavy bass, arpeggiated leads, atmospheric pads",
+    "description": "Text-to-music generation"
+  },
+  {
+    "id": "cinematic-trailer",
+    "name": "Cinematic Storyboard",
+    "type": "video",
+    "prompt": "dramatic sci-fi trailer scene: spaceship emerging from wormhole, intense lens flares, epic orchestral hit",
+    "description": "Short AI video concept"
+  },
+  {
+    "id": "poetic-narration",
+    "name": "Epic Voiceover",
+    "type": "text",
+    "prompt": "Write a dark, poetic narration for a cyber-noir trailer about lost memories in a digital afterlife",
+    "description": "Creative writing / voiceover script"
+  }
+]

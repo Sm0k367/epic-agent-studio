@@ -1,0 +1,17 @@
+{
+  "name": "Epic OS",
+  "short_name": "Epic OS",
+  "description": "Epic Tech AI — your AI operating system in the cloud",
+  "start_url": "/os",
+  "display": "standalone",
+  "background_color": "#07070f",
+  "theme_color": "#a855f7",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
