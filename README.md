@@ -15,6 +15,7 @@
 [![Prisma](https://img.shields.io/badge/Prisma-5-2D3748?style=flat-square&logo=prisma&logoColor=white)](https://www.prisma.io/)
 [![Groq](https://img.shields.io/badge/Groq-Text-a855f7?style=flat-square)](https://groq.com/)
 [![Stripe](https://img.shields.io/badge/Stripe-Billing-635BFF?style=flat-square&logo=stripe&logoColor=white)](https://stripe.com/)
+[![Live Demo](https://img.shields.io/badge/Live-epic--agent--studio-22d3ee?style=flat-square)](https://epic-agent-studio-production.up.railway.app)
 
 </div>
 
